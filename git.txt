@@ -26,3 +26,6 @@ terminal commands for git:
 git pull 
 git status
 git rm file.txt
+tree 
+git branch 
+
