@@ -23,3 +23,6 @@ git commit -m "description"
 git push
 
 terminal commands for git:
+git pull 
+git status
+git rm file.txt
