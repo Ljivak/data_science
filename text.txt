@@ -1,38 +1,25 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2761
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2514\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+git:
 
-\f0\fs24 \cf0 git:\
-\
-to check bonded name and email:\
-git config --global user.name \
-git config --global user.name \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2514\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 to bond name and email:\
-git config --global user.name Ljivak\
-git config --global user.name dima1malynyak@gmail.com\
-\
-to make new git repository: \
-\pard\pardeftab720\partightenfactor0
-\cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 git init \
-echo".DS_Store" > .gitignore  // \uc0\u1076 \u1083 \u1103  \u1091 \u1073 \u1086 \u1088 \u1082 \u1080  \u1084 \u1091 \u1089 \u1086 \u1088 \u1085 \u1086 \u1081  \u1087 \u1072 \u1087 \u1082 \u1080  \u1089  \u1076 \u1072 \u1085 \u1085 \u1099 \u1084 \u1080  \u1089 \u1086 \u1079 \u1076 \u1072 \u1085 \u1085 \u1086 \u1081  macos	\
-git add . \
-git commit -m "initial commit" \
-git branch -M main \
-git remote add origin git@github.com:Ljivak/data_science.git\
-git push -u origin main\
-\
-to push already existing repository:\
-git add . \
-git commit -m "description" \
-git push\
-\
-terminal commands for git:\
-git pull
-}
+to check bonded name and email:
+git config --global user.name 
+git config --global user.name 
+
+to bond name and email:
+git config --global user.name Ljivak
+git config --global user.name dima1malynyak@gmail.com
+
+to make new git repository: 
+git init 
+echo".DS_Store" > .gitignore  // for deleting unnecessary macos file 	
+git add . 
+git commit -m "initial commit" 
+git branch -M main 
+git remote add origin git@github.com:Ljivak/data_science.git
+git push -u origin main
+
+to push already existing repository:
+git add . 
+git commit -m "description" 
+git push
+
+terminal commands for git:
