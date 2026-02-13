@@ -34,4 +34,5 @@ git commit -m "description" \
 git push\
 \
 terminal commands for git:\
+git pull
 }
