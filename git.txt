@@ -10,14 +10,17 @@ git config --global user.name dima1malynyak@gmail.com
 
 to make new git repository: 
 git init 
-echo".DS_Store" > .gitignore  // for deleting unnecessary macos file 	
 git add . 
 git commit -m "initial commit" 
 git branch -M main 
 git remote add origin git@github.com:Ljivak/data_science.git
 git push -u origin main
+echo".DS_Store" > .gitignore  // for deleting unnecessary macos file
+git add .gitignore
+git commit -m "Ignore .DS_Store"
+git push
 
-to push already existing repository:
+to push in already existing repository:
 git add . 
 git commit -m "description" 
 git push
@@ -28,4 +31,13 @@ git status
 git rm file.txt
 tree 
 git branch 
-
+git restore file -- makes your file as last version in git
+git reset HEAD -- deletes files from staging area 
+git reset HEAD~1 -- deletes last commit 
+git clean -d (-f) -- deletes extra files on remote not on server (-d to check before)
+git revert <hash> -- reverts commit under hash and commits automatically (-n to put in st. area)
+git checkout
+git show -s --pretty=raw d2d84
+git ls-tree 629eb
+git show abb54
+git commit --amend -m "new message"
