@@ -24,13 +24,7 @@ git add .
 git commit -m "description" 
 git push
 
-terminal commands for git:
-git pull 
-git status
-git log
-git log --oneline --graph --all
-git rm file.txt
-tree 
+branch:
 git branch -- (-a remote branches included)
 git branch name -- create new branch
 git checkout -b name -- create and change head
@@ -44,6 +38,16 @@ git reset HEAD~1 -- deletes last commit
 git clean -d (-f) -- deletes extra files on remote not on server (-d to check before)
 git revert <hash> -- reverts commit under hash and commits automatically (-n to put in st. area)
 git checkout
+
+
+terminal commands for git:
+git pull 
+git status
+git log
+git log --oneline --graph --all
+git rm file.txt
+
+
 git show -s --pretty=raw d2d84
 git ls-tree 629eb
 git show abb54
