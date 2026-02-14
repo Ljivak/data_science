@@ -34,6 +34,13 @@ git checkout name -- switch branch
 git switch name -- switch branch
 git branch -d name -- delete branch
 git merge name -- this.branch becomes name.branch
+git push origin branch.name -- pushes commit from this.branch to branch.name on server
+git push -u origin branch.name -- makes connection from local branch to server
+git switch master     git pull origin master -- pulls origin.master from server 
+git branch -d feature-payment, git push origin --delete feature-payment -- deletes both branches
+git merge master -- get update from master to branch
+git rebase master -- merge, but makes branch as descendant of master 
+git diff origin/feature-payment -- 
 
 restoring, deleting:
 git restore file -- makes your file as last version in git (. all files)
