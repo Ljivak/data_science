@@ -56,5 +56,3 @@ git show -s --pretty=raw d2d84
 git ls-tree 629eb
 git show abb54
 git commit --amend -m "new message"
-
-checking branch behaviour
