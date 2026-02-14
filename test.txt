@@ -5,3 +5,5 @@ new feature
 new new feature 
 
 test 
+
+test adding text
