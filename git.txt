@@ -25,19 +25,23 @@ git commit -m "description"
 git push
 
 branch:
+info: branch is a pointer to commit, so without commit branch = master
 git branch -- (-a remote branches included)
 git branch name -- create new branch
 git checkout -b name -- create and change head
 git switch -c name -- create and change head
+git checkout name -- switch branch
 git switch name -- switch branch
-git branch -d -- delete branch
+git branch -d name -- delete branch
 git merge name -- this.branch becomes name.branch
-git restore file -- makes your file as last version in git
+
+restoring, deleting:
+git restore file -- makes your file as last version in git (. all files)
 git reset HEAD -- deletes files from staging area 
 git reset HEAD~1 -- deletes last commit 
 git clean -d (-f) -- deletes extra files on remote not on server (-d to check before)
 git revert <hash> -- reverts commit under hash and commits automatically (-n to put in st. area)
-git checkout
+
 
 
 terminal commands for git:
