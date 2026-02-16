@@ -1,4 +1,6 @@
 git:
+https://git-scm.com/
+https://git-scm.com/book/ru/v2
 
 to check bonded name and email:
 git config --global user.name 
@@ -53,10 +55,24 @@ git revert <hash> -- reverts commit under hash and commits automatically (-n to 
 
 terminal commands for git:
 git pull 
+git fetch
 git status
 git log
-git log --oneline --graph --all
+git log --oneline --graph --all    (git logl / loglg)
 git rm file.txt
+git tag version1 
+git tag -list
+git push --tags
+git checkout version1
+git stash save "description"
+git stash list 
+git stash pop 
+git stash apply 
+git stash d
+git remote -v
+git remote remove origin
+git remote add origin url
+git push --set-upstream origin master  -- makes new project with the same history as old one
 
 
 git show -s --pretty=raw d2d84
